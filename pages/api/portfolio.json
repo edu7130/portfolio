@@ -1,0 +1,93 @@
+
+{
+    "home":{
+        "name":"Eduardo Nicolas Weidenbacher",
+        "profession":"Programador",
+        "logoUrl":"../img/imago.png"
+    },
+    "about":{
+        "description":"Mi nombre es Eduardo Nicolas Weidenbacher. Estudié la carrera de Analista de Sistemas en CESMI (Centro de Estudios Superiores de Misiones) y me especializo en lo que más me apasiona, la programación, mejorando mis habilidades día a día. Continua hacia abajo para conocer más sobre mi.",
+        "imgUrl":"../img/profile/profile.jpg"
+    },
+    "skills":{
+        "description":"Estos son algunos de los lenguajes y herramientas con los que trabajo:",
+        "skills":[
+            {
+                "name":"C#",
+                "level":"Intermediate"
+            },
+            {
+                "name":"Sql Server",
+                "level":"Intermediate"
+            },
+            {
+                "name":"Wpf",
+                "level":"Intermediate"
+            },
+            {
+                "name":"Flutter",
+                "level":"Basic"
+            },
+            {
+                "name":"Next Js",
+                "level":"Basic"
+            }
+        ]
+    },
+    "projects":{
+        "description":"A continuación le presento algunos de los proyectos que he desarrollado:",
+        "projects":[
+            {
+                "name":"My Notes",
+                "description":"Aplicación Windows creado para que cada usuario pueda acceder a sus notas en la nube desde cualquier sitio. Al ingresar se podrá registrar un nuevo usuario o bien, usar uno existente.",
+                "imgUrl":"../img/projects/app-notes.png",
+                "download":"asdas",
+                "repository":"https://github.com/edu7130/notes",
+                "tags":["C#","Wpf", "SQL Server"]
+            },
+            {
+                "name":"Dolarama",
+                "description":"Aplicación Android que permite visualizar el valor del dólar en Argentina (Oficial, Blue, Contado con Liqui, Bolsa) con una interfaz sencilla y amigable al usuario. Los datos son obtenidos de la pagina de www.dolarsi.com",
+                "imgUrl":"../img/projects/app-dolarama.png",
+                "download":"https://dolarama.uptodown.com/android",
+                "repository":"https://github.com/edu7130/dolarama",
+                "tags":["Dart", "Flutter","Android"]
+            },
+            {
+                "name":"Portfolio",
+                "description":"Página informativa acerca de mi vida profesional, donde muestro mis habilidades en el campo de la programación como también los proyectos que he realizado a lo largo del tiempo.",
+                "imgUrl":"../img/projects/portfolio.png",
+                "download":"",
+                "repository":"https://github.com/edu7130/portfolio",
+                "tags":["Next JS", "Html","Css", "JavaScript"]
+            }
+        ]
+    },
+    "contact":{
+        "description":"Echa un vistazo a mis redes sociales:",
+        "mail":"business_edu@outlook.com",
+        "curriculum":"http://localhost:3000/curriculum",
+        "socialMedia":[
+            {
+                "iconName":"telegram",
+                "url":"https://t.me/Edu_7130"
+            },
+            {
+                "iconName":"twitter",
+                "url":"https://twitter.com/Eduu_7130"
+            },
+            {
+                "iconName":"linkedin",
+                "url":"https://www.linkedin.com/in/eduardo-nicolas-weidenbacher-0031281ab/"
+            },
+            {
+                "iconName":"github",
+                "url":"https://github.com/edu7130"
+            }
+        ]
+    },
+    "copyright":{
+        "year": 2021,
+        "copyright":"Eduardo Nicolas Weidenbacher"
+    }
+}
