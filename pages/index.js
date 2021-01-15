@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <Head>
+      <Head> 
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <title>Eduardo Weidenbacher | Programador</title>
         <meta
