@@ -1,4 +1,3 @@
-import Image from "next/image";
 function AboutMe(props) {
   const { description, imgUrl } = props.content;
 
