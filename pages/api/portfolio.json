@@ -41,7 +41,7 @@
                 "name":"My Notes",
                 "description":"Aplicación Windows creado para que cada usuario pueda acceder a sus notas en la nube desde cualquier sitio. Al ingresar se podrá registrar un nuevo usuario o bien, usar uno existente.",
                 "imgUrl":"../img/projects/app-notes.png",
-                "download":"",
+                "download":"https://drive.google.com/file/d/1FzgKbAlw-sw1trtt2uKXW_Ax567fY5Pc/view?usp=sharing",
                 "repository":"https://github.com/edu7130/notes",
                 "tags":["C#","Wpf", "SQL Server"]
             },
