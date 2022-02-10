@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from '../../golbal-styles/colors';
 const colorMain = '#161c24'
 //#23394d
 export const Container = styled.div`
@@ -77,7 +78,7 @@ export const MenuItem = styled.li`
         align-items: center;
         height: 100%;
         padding: 0.5rem 2.5rem;
-        color: #64b2ff;
+        color: ${colors.blueText};
         font-family: sans-serif;
         font-size: 1rem;
         font-weight: 600;
