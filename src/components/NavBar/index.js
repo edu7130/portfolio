@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Container, LogoContainer, Menu, MenuItem, MobileIcon, Wrapper } from './Navbar.elements'
-import { FaBars, FaBattleNet } from "react-icons/fa";
+import { Background, Container, LogoContainer, Menu, MenuItem, MobileIcon, Wrapper } from './Navbar.elements'
+import { FaBars, FaTimes, FaBattleNet } from "react-icons/fa";
 import { IconContext } from 'react-icons';
 
 import { NavLink } from 'react-router-dom'
@@ -11,6 +11,9 @@ export const NavBar = () => {
 
     const [showMenu, setShowMenu] = useState(false)
 
+    const hideMenu = () => setShowMenu(false)
+    const toggleMenu = () => setShowMenu(!showMenu);
+
     return (
         <Container>
             <Wrapper>
@@ -20,26 +23,30 @@ export const NavBar = () => {
                         <p>Eduardo</p>
                         <p>Weidenbacher</p>
                     </LogoContainer>
-                    <MobileIcon onClick={() => setShowMenu(!showMenu)}>
-                        <FaBars />
+                    <MobileIcon onClick={toggleMenu}>
+                        {showMenu ? <FaTimes /> : <FaBars />}
                     </MobileIcon>
 
                     <Menu open={showMenu}>
                         <MenuItem>
-                            <NavLink onClick={() => setShowMenu(false)} to='/'>Home</NavLink>
+                            <NavLink onClick={hideMenu} to='/'>Home</NavLink>
                         </MenuItem>
 
                         <MenuItem>
-                            <NavLink onClick={() => setShowMenu(false)} to='/about'>About me</NavLink>
+                            <NavLink onClick={hideMenu} to='/about'>About me</NavLink>
                         </MenuItem>
+
                         <MenuItem>
-                            <NavLink onClick={() => setShowMenu(false)} to='/projects'>Projects</NavLink>
+                            <NavLink onClick={hideMenu} to='/projects'>Projects</NavLink>
                         </MenuItem>
+
                         <MenuItem>
-                            <NavLink onClick={() => setShowMenu(false)} to='/contact'>Contact</NavLink>
+                            <NavLink onClick={hideMenu} to='/contact'>Contact</NavLink>
                         </MenuItem>
 
                     </Menu>
+
+                    <Background onClick={toggleMenu} active={showMenu}/>
                 </IconContext.Provider>
             </Wrapper>
         </Container>

@@ -48,23 +48,24 @@ export const Menu = styled.ul`
     display: flex;
     justify-content: space-between;
     list-style: none;
-
+    
     @media screen and (max-width: 960px){
         background-color: ${colorMain};
-        border-right: 1px solid rgba(255,255,255,.1);
+        //border-right: 1px solid rgba(255,255,255,.1);
         position: absolute;
         top: 7.9vh;
-        left: ${({ open }) => open ? "0" : "-50%"};
-        width: 50%;
+        left: ${({ open }) => open ? "0" : "-40%"};
+        width: 40%;
         height: 92.1vh;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         transition: .5s all ease;
+        z-index: 5;
     }
     @media screen and (max-width: 668px){
         left: ${({ open }) => open ? "0" : "-70%"};
-        width: 70%;
+        width: 50%;
     }
 `;
 
@@ -107,15 +108,24 @@ export const MenuItem = styled.li`
 
 export const MobileIcon = styled.div`
     display: none;
-
+    background-color: transparent;
+    
     @media screen and (max-width: 960px){
         display: flex;
         align-items: center;
         cursor: pointer;
-
         svg{
             fill: #e07924;
             margin-right: 0.5rem;
         }
     }
+`;
+
+export const Background = styled.div`
+    display: ${({active})=> active ? 'block' : 'none'};
+    position: absolute;
+    top: 8vh;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
 `;

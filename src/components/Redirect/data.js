@@ -7,7 +7,7 @@ export const projects = [
     {
         name: 'Dolarama',
         nameUrl: 'dolarama',
-        url: 'https://edu-dev.ar'
+        url: 'https://play.google.com/store/apps/details?id=com.eduweidenbacher.dolarama_arg'
     },
 
     {
@@ -15,5 +15,4 @@ export const projects = [
         nameUrl: 'oldportfolio',
         url: 'https://old.edu-dev.ar'
     },
-
 ]
