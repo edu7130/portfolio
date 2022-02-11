@@ -9,17 +9,25 @@ export const ListSocialNetworks = styled.ul`
 export const ItemSocialMedia = styled.li`
     margin: 0 2rem;
     font-size: 2rem;
-    color: rgba(255,255,255,.8);//${colors.main};
+    
     cursor: pointer;
+    
+    transition: color .3s ease;
 
-    transition color .3s ease;
-
-    &:hover{
-        color: ${colors.blueText};
+    a{
+        color: rgba(255,255,255,.8);
+        &:hover{
+            color: ${colors.blueText};
+            outline: none;
+        }
     }
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 668px){
         margin: 0 1.5rem;
+    }
+
+    @media screen and (max-width: 450px){
+        margin: 0 .5rem;
     }
 
 `;
@@ -36,6 +44,6 @@ export const ContactContent = styled.div`
         text-align: center; 
     }
     img{
-        max-width: 20rem;
+        max-width: 15rem;
     }
 `;

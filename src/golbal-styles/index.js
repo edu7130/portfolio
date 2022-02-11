@@ -37,7 +37,7 @@ export const ContainerSection = styled.section`
 
 export const Main = styled.main`
     width: 100vw;
-    height: 92vh;
+    height: ${({height})=> height ? height : '92vh'};
     background-color: ${colorMain};
 `;
 

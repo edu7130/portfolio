@@ -6,7 +6,7 @@ export const ErrorPage = () => {
     <ContainerSection>
       <Center>
         <ErrorContainer>
-          <img src='./assets/svg/404_2.svg' alt='Page not found 404'/>
+          <img src='../assets/svg/404_2.svg' alt='Page not found 404'/>
           <h2>Page not found</h2>
         </ErrorContainer>
       </Center>
