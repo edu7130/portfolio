@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NavBar, Home, About, Contact, ErrorPage, Projects } from "../components";
-import { Redirect } from '../components/Redirect';
+import { NavBar, Home, About, Contact, ErrorPage, Projects, Redirect } from "../components";
 import { Main } from '../golbal-styles';
 
 export const AppRouter = () => {
