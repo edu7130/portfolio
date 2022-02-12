@@ -47,7 +47,7 @@ export const Redirect = () => {
                         ? <h1>Searching app...</h1>
                         :
                         <Content>
-                            <img src={success ? '../assets/svg/link_redirect.svg' : '../assets/svg/404.svg'} alt='redirect' />
+                            <img src={success ? `${process.env.PUBLIC_URL}/assets/svg/link_redirect.svg` : `${process.env.PUBLIC_URL}/assets/svg/404.svg`} alt='redirect' />
                             <H1>{success ? message : 'App not exist'}</H1>
                             {name && <h3>{name}</h3>}
                             {

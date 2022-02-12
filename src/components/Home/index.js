@@ -6,7 +6,7 @@ export const Home = () => {
     <ContainerSection>
       <HomeContent>
         <MeDescription>
-        <p>Hi! I'm</p>
+        <p>Hi! I am</p>
           <h1>
             Eduardo Weidenbacher
           </h1>

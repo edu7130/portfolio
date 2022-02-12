@@ -8,3 +8,7 @@ body{
   font-family: sans-serif;
   
 }
+*::selection{
+  background-color: #F98226;
+  color: #161c24;
+}

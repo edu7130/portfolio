@@ -1,4 +1,5 @@
-import { ContainerSection, Center, ErrorContainer } from '../../golbal-styles'
+import { Link } from 'react-router-dom'
+import { ContainerSection, Center, ErrorContainer, LinkContainer } from '../../golbal-styles'
 
 
 export const ErrorPage = () => {
@@ -6,8 +7,11 @@ export const ErrorPage = () => {
     <ContainerSection>
       <Center>
         <ErrorContainer>
-          <img src='../assets/svg/404_2.svg' alt='Page not found 404'/>
+          <img src={`${process.env.PUBLIC_URL}/assets/svg/404_2.svg`} alt='Page not found 404' />
           <h2>Page not found</h2>
+          <LinkContainer>
+            <Link to='/'>Go Home</Link>
+          </LinkContainer>
         </ErrorContainer>
       </Center>
     </ContainerSection>
