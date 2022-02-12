@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 
 export const Article = styled.article`
-    position: relative;
     display: flex;
     flex-direction: column;
     max-width: 25rem;
     height: 100%;
+    min-height: 50%;
     margin: auto;
     padding: 2rem 1rem;
     color: ${({ color }) => color};
@@ -15,7 +15,6 @@ export const Article = styled.article`
     background-image: ${({ bgImg }) => bgImg && `url(${bgImg})`};
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
     
     
     h2{
