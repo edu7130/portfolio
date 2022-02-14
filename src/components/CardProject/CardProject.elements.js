@@ -44,7 +44,7 @@ export const Info = styled.div`
     bottom: ${({ show }) => show ? '0' : '-100%'};
 
 
-    transition: all 1s ease;
+    transition: all .5s ease;
 
     h3{
         text-align: center;
