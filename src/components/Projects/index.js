@@ -1,6 +1,6 @@
 import { ContainerSection } from "../../golbal-styles"
 
-import { ProjectItem, ProjectList, Title } from "./Projects.elements";
+import { ProjectItem, ProjectList } from "./Projects.elements";
 import { CardProject } from "../CardProject";
 
 import { projectList } from '../../data/projects';

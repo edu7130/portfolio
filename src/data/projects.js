@@ -6,7 +6,7 @@ export const projectList = [
         url: '/',
         imgUrl: './assets/projects/portfolio.png',
         platform: 'web',
-        priv: true,
+        priv: false,
     },
     
     {
@@ -26,6 +26,15 @@ export const projectList = [
         url: 'https://play.google.com/store/apps/details?id=com.eduweidenbacher.infopeliculas',
         imgUrl: './assets/projects/info-peliculas.png',
         platform: 'mobile',
+        priv: false,
+    },
+    {
+        name: 'Products Rest',
+        description: 'Producst Rest Server, made with NodeJs, Typescript, Express',
+        urlRepo: 'https://github.com/edu7130/products-rest.git',
+        url: 'https://github.com/edu7130/products-rest.git',
+        imgUrl: './assets/projects/rest.png',
+        platform: 'web',
         priv: false,
     },
 

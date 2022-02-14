@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NavBar, Home, About, Contact, ErrorPage, Projects, Redirect } from "../components";
+import { NavBar, Home, About, Contact, ErrorPage, Projects, Redirect, Resume } from "../components";
 import { Main } from '../golbal-styles';
 
 export const AppRouter = () => {
@@ -20,6 +20,7 @@ export const AppRouter = () => {
                                 <Route path="/about" element={<About />} />
                                 <Route path="/projects" element={<Projects />} />
                                 <Route path="/contact" element={<Contact />} />
+                                <Route path="/resume" element={<Resume />} />
 
                                 <Route path="/*" element={<ErrorPage />} />
                             </Routes>
