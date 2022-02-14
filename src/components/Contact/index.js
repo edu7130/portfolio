@@ -12,38 +12,38 @@ export const Contact = () => {
     <ContainerSection>
       <Center>
         <ContactContent>
-          <img src='./assets/svg/social_networking.svg' />
+          <img src='./assets/svg/social_networking.svg' alt='Networking'/>
           <H1>Follow me on my social networks:</H1>
           <nav>
             <ListSocialNetworks>
 
               <ItemSocialMedia>
-                <a href='https://linkedin.com/' target='_blank'>
+                <a href='https://linkedin.com/' target='_blank' rel="noreferrer">
                   <FaLinkedinIn />
                 </a>
               </ItemSocialMedia>
 
               <ItemSocialMedia>
-                <a href='https://twitter.com/Eduu_7130' target='_blank'>
+                <a href='https://twitter.com/Eduu_7130' target='_blank' rel="noreferrer">
                   <FaTwitter />
                 </a>
               </ItemSocialMedia>
 
               <ItemSocialMedia>
-                <a href='https://t.me/Edu_7130' target='_blank'>
+                <a href='https://t.me/Edu_7130' target='_blank' rel="noreferrer">
                   <FaTelegramPlane />
                 </a>
               </ItemSocialMedia>
 
               <ItemSocialMedia>
-                <a href='https://github.com/edu7130' target='_blank'>
+                <a href='https://github.com/edu7130' target='_blank' rel="noreferrer">
                   <FaGithub />
                 </a>
 
               </ItemSocialMedia>
 
               <ItemSocialMedia>
-                <a href='mailto:business_edu@outlook.com' target='_blank'>
+                <a href='mailto:business_edu@outlook.com' target='_blank' rel="noreferrer">
                   <MdEmail />
                 </a>
               </ItemSocialMedia>

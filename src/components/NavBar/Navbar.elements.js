@@ -6,6 +6,7 @@ export const Container = styled.div`
     width: 100%;
     height: 8vh;
     background-color: ${colorMain};
+    z-index: 10;
 `;
 
 export const Wrapper = styled.div`
@@ -48,6 +49,7 @@ export const Menu = styled.ul`
     display: flex;
     justify-content: space-between;
     list-style: none;
+    z-index: 10;
     
     @media screen and (max-width: 960px){
         background-color: ${colorMain};
@@ -61,7 +63,6 @@ export const Menu = styled.ul`
         align-items: center;
         flex-direction: column;
         transition: .5s all ease;
-        z-index: 5;
     }
     @media screen and (max-width: 668px){
         left: ${({ open }) => open ? "0" : "-70%"};
@@ -128,4 +129,5 @@ export const Background = styled.div`
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.5);
+    z-index: 9;
 `;

@@ -6,7 +6,7 @@ export const Article = styled.article`
     flex-direction: column;
     max-width: 25rem;
     height: 100%;
-    min-height: 50%;
+    min-height: 70%;
     margin: auto;
     padding: 2rem 1rem;
     color: ${({ color }) => color};

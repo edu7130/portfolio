@@ -5,7 +5,7 @@ const colorMain = '#161c24';
 export const ContainerSection = styled.section`
     display: grid;
     height: 92vh;
-    width: 85vw;
+    width: ${({width})=> width ? width : '85%'};
     margin: 0 auto;
     color:white;
     overflow-y: ${({scroll})=> scroll && 'scroll'};

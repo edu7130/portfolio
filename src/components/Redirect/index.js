@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { ContainerSection, Center, H1 } from '../../golbal-styles'
-import { projects } from './data';
+import { redirects } from '../../data/redirects';
 import { Content } from './Redirect.elements';
 
 export const Redirect = () => {
@@ -18,7 +18,7 @@ export const Redirect = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            const pr = projects.find(p => p.nameUrl === project)
+            const pr = redirects.find(p => p.nameUrl === project)
 
             if (pr) {
                 setData({
@@ -30,7 +30,7 @@ export const Redirect = () => {
                 window.open(pr.url, 'nopener')
             }
             else {
-                setData({ ...data, success: false })
+                setData((data)=>({ ...data, success: false }))
             }
             setLoading(false);
         }, 0);
@@ -51,7 +51,7 @@ export const Redirect = () => {
                             <H1>{success ? message : 'App not exist'}</H1>
                             {name && <h3>{name}</h3>}
                             {
-                                url && <a href={url} target='_blank'>{url}</a>
+                                url && <a href={url} target='_blank' rel="noreferrer">{url}</a>
                             }
                         </Content>
                 }
