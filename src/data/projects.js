@@ -37,5 +37,14 @@ export const projectList = [
         platform: 'web',
         priv: false,
     },
+    {
+        name: 'Rest Server Udemy course',
+        description: 'Rest Server from udemy course, Auth with google, JWT. Made with NodeJs, Express',
+        urlRepo: 'https://github.com/edu7130/node-rest-server.git',
+        url: 'https://github.com/edu7130/node-rest-server.git',
+        imgUrl: './assets/projects/rest2.png',
+        platform: 'web',
+        priv: false,
+    },
 
 ]
