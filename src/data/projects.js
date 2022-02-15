@@ -46,5 +46,14 @@ export const projectList = [
         platform: 'web',
         priv: false,
     },
+    {
+        name: 'Queue application Socket',
+        description: 'Queue application Socket from udemy course. Made with NodeJs, Express, Socket.io',
+        urlRepo: 'https://github.com/edu7130/queue-socket.git',
+        url: 'https://github.com/edu7130/queue-socket.git',
+        imgUrl: './assets/projects/turnos.png',
+        platform: 'web',
+        priv: false,
+    },
 
 ]
