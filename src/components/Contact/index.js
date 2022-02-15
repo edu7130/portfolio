@@ -18,7 +18,7 @@ export const Contact = () => {
             <ListSocialNetworks>
 
               <ItemSocialMedia>
-                <a href='https://linkedin.com/' target='_blank' rel="noreferrer">
+                <a href='https://www.linkedin.com/in/eduardo-nicolas-weidenbacher-0031281ab/' target='_blank' rel="noreferrer">
                   <FaLinkedinIn />
                 </a>
               </ItemSocialMedia>
