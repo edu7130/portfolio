@@ -30,7 +30,7 @@ export const projectList = [
     },
     {
         name: 'Products Rest',
-        description: 'Producst Rest Server, made with NodeJs, Typescript, Express',
+        description: 'Products Rest Server, made with NodeJs, Typescript, Express',
         urlRepo: 'https://github.com/edu7130/products-rest.git',
         url: 'https://github.com/edu7130/products-rest.git',
         imgUrl: './assets/projects/rest.png',
