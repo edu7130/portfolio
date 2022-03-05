@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn, FaTelegramPlane, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Center } from '../../golbal-styles'
 import { ContainerSection, H1 } from "../../golbal-styles"
@@ -26,12 +26,6 @@ export const Contact = () => {
               <ItemSocialMedia>
                 <a href='https://twitter.com/Eduu_7130' target='_blank' rel="noreferrer">
                   <FaTwitter />
-                </a>
-              </ItemSocialMedia>
-
-              <ItemSocialMedia>
-                <a href='https://t.me/Edu_7130' target='_blank' rel="noreferrer">
-                  <FaTelegramPlane />
                 </a>
               </ItemSocialMedia>
 
