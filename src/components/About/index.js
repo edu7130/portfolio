@@ -81,7 +81,7 @@ export const About = () => {
           <p>
             I consider myself an organized person who likes to solve problems and pays great attention to details.
           </p>
-          <LinkContainer>
+          <LinkContainer style={{display:'none'}}>
             <Link to='/resume' cg='2rem'>
               <GrDocumentPdf />
               My Resume
