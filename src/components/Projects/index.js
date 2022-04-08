@@ -10,7 +10,6 @@ import { useEffect, useContext } from "react";
 export const Projects = () => {
 
   const { projects, hasError } = useContext(ProjectsContext);
-  console.log({ projects, hasError });
   const getItems = () => {
     return projects.map((item) => (
       <ProjectItem key={item.id}>

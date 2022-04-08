@@ -9,7 +9,6 @@ function App() {
   const [state, dispatch] = useReducer(projectsReducer, { projects: [], hasError: false });
 
   useEffect(() => {
-    console.log(state);
     getProjects()
       .then((projects) =>
         dispatch({
