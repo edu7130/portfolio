@@ -8,9 +8,18 @@ export const ProjectList = styled.ul`
     gap: .5rem;
     align-items: center;
     justify-content: center;
+    animation: op 1s;
 
     @media screen and (max-width: 960px){
         grid-template-columns: 1fr;
+    }
+    @keyframes op{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
     }
 `;
 
@@ -22,4 +31,15 @@ export const ProjectItem = styled.li`
     }
 `;
 
+
+export const ProjectListEmpty = styled.div`
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content:center;
+    p{
+        font-size: 3rem;
+        color: white;
+    }
+`;
 

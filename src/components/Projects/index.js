@@ -1,15 +1,19 @@
 import { ContainerSection } from "../../golbal-styles"
 
-import { ProjectItem, ProjectList } from "./Projects.elements";
+import { ProjectItem, ProjectList, ProjectListEmpty } from "./Projects.elements";
 import { CardProject } from "../CardProject";
 
-import { projectList } from '../../data/projects';
+
+import { ProjectsContext } from "../../context/projectsContext";
+import { useEffect, useContext } from "react";
 
 export const Projects = () => {
 
+  const { projects, hasError } = useContext(ProjectsContext);
+  console.log({ projects, hasError });
   const getItems = () => {
-    return projectList.map((item, i) => (
-      <ProjectItem key={i}>
+    return projects.map((item) => (
+      <ProjectItem key={item.id}>
         <CardProject {...item} />
       </ProjectItem>)
     )
@@ -17,9 +21,18 @@ export const Projects = () => {
 
   return (
     <ContainerSection scroll width='95%' >
-      <ProjectList>
-        {getItems()}
-      </ProjectList>
+      {
+        projects.length == 0
+          ? <ProjectListEmpty >
+            <p>{hasError ? 'Error loading' : 'Loading...'}</p>
+          </ProjectListEmpty>
+          : <ProjectList>
+            {
+              getItems()
+            }
+          </ProjectList>
+      }
+
     </ContainerSection>
   )
 }
