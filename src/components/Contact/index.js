@@ -37,7 +37,7 @@ export const Contact = () => {
               </ItemSocialMedia>
 
               <ItemSocialMedia>
-                <a href='mailto:contact@edu-dev.ar' target='_blank' rel="noreferrer">
+                <a href='mailto:business_edu@outlook.com' target='_blank' rel="noreferrer">
                   <MdEmail />
                 </a>
               </ItemSocialMedia>
