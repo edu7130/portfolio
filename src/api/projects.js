@@ -23,7 +23,7 @@ export const getProjects = async () => {
             "name": "Portfolio",
             "description": "Personal portfolio made with React, Styled Components and deployed on Heroku",
             "urlRepo": "https://github.com/edu7130/portfolio.git",
-            "url": "https://edu-dev.ar",
+            "url": "https://edudev.ar",
             "platform": "WEB",
             "img": "https://res.cloudinary.com/dpgbofmgc/image/upload/v1649378788/oaefs2gkruzqx4feckbp.png",
         },
