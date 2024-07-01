@@ -29,19 +29,19 @@ export const NavBar = () => {
 
                     <Menu open={showMenu}>
                         <MenuItem>
-                            <NavLink onClick={hideMenu} to='/'>Home</NavLink>
+                            <NavLink onClick={hideMenu} to='/'>Inicio</NavLink>
                         </MenuItem>
 
                         <MenuItem>
-                            <NavLink onClick={hideMenu} to='/about'>About me</NavLink>
+                            <NavLink onClick={hideMenu} to='/about'>Acerca de</NavLink>
                         </MenuItem>
 
                         <MenuItem>
-                            <NavLink onClick={hideMenu} to='/projects'>Projects</NavLink>
+                            <NavLink onClick={hideMenu} to='/projects'>Proyectos</NavLink>
                         </MenuItem>
 
                         <MenuItem>
-                            <NavLink onClick={hideMenu} to='/contact'>Contact</NavLink>
+                            <NavLink onClick={hideMenu} to='/contact'>Contacto</NavLink>
                         </MenuItem>
 
                     </Menu>

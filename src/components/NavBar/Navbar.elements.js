@@ -30,7 +30,9 @@ export const LogoContainer = styled.div`
     
     p{
         &:nth-child(2){
+            font-size: 1.5rem;
             color: #fff;
+            margin-right: .3rem;
         }
         &:nth-child(3){
             font-size: 1.5rem;

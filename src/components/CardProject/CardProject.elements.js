@@ -9,7 +9,7 @@ export const Content = styled.article`
     width: 100%;
     height: 100%;
     
-    background-color: grey;
+    background-color: #2B425AD7;
     
     background-image: url(${({ urlImage }) => urlImage});
     background-position: center;

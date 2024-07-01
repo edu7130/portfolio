@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Content, Info, LinkProject, RowLinks } from "./CardProject.elements"
-import { MdLink, MdDownload } from 'react-icons/md'
-import { GiWorld } from 'react-icons/gi'
+import { MdDownload, MdLink } from "react-icons/md";
+import { GiWorld } from "react-icons/gi";
 
 export const CardProject = ({ name, description, url, urlRepo, priv, platform, img }) => {
 
@@ -18,17 +18,17 @@ export const CardProject = ({ name, description, url, urlRepo, priv, platform, i
                 <RowLinks priv={priv}>
                     <LinkProject href={urlRepo} target='_blank' >
                         <MdLink />
-                        <p>Repository</p>
+                        <p>Repositorio</p>
                     </LinkProject>
                     <LinkProject href={url} target='_blank'>
                         {platform === 'WEB' ?
                             <>
                                 <GiWorld />
-                                <p>Visit</p>
+                                <p>Visitar</p>
                             </> :
                             <>
                                 <MdDownload />
-                                <p>Download</p>
+                                <p>Descargar</p>
                             </>
                         }
                     </LinkProject>

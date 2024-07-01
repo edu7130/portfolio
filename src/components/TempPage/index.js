@@ -8,7 +8,7 @@ export const TempPage = () => {
         <Center>
             <ErrorContainer>
                 <img src='./assets/svg/page_manteinance.svg' alt='Page in mantainence'/>
-                <h2>Page in maintenance</h2>
+                <h2>Página en mantenimiento</h2>
             </ErrorContainer>
         </Center>
     </ContainerSection>

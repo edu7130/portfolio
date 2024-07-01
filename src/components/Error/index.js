@@ -8,9 +8,9 @@ export const ErrorPage = () => {
       <Center>
         <ErrorContainer>
           <img src={`${process.env.PUBLIC_URL}/assets/svg/404_2.svg`} alt='Page not found 404' />
-          <h2>Page not found</h2>
+          <h2>Página no encontrada</h2>
           <LinkContainer>
-            <Link to='/'>Go Home</Link>
+            <Link to='/'>Ir a inicio</Link>
           </LinkContainer>
         </ErrorContainer>
       </Center>

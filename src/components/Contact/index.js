@@ -12,8 +12,8 @@ export const Contact = () => {
     <ContainerSection>
       <Center>
         <ContactContent>
-          <img src='./assets/svg/social_networking.svg' alt='Networking'/>
-          <H1>Follow me on my social networks:</H1>
+          <img src='./assets/svg/social_networking.svg' alt='Networking' />
+          <H1>Sígueme en mis redes sociales:</H1>
           <nav>
             <ListSocialNetworks>
 

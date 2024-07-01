@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Article = styled.article`
     display: flex;
     flex-direction: column;
-    max-width: 25rem;
+    max-width: 30rem;
     height: 100%;
     min-height: 70%;
     margin: auto;

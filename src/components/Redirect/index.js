@@ -10,7 +10,7 @@ export const Redirect = () => {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState({
         success: null,
-        message: `Searching project ${project}..`,
+        message: `Buscando proyecto ${project}..`,
         name: null,
         url: null
     });
@@ -23,7 +23,7 @@ export const Redirect = () => {
             if (pr) {
                 setData({
                     success: true,
-                    message: `Redirecting to`,
+                    message: `Redirigiaendo a`,
                     name: pr.name,
                     url: pr.url
                 })

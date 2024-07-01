@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom'
 
 import { MdAccountCircle, MdBuild } from 'react-icons/md'
-import { FaReact, FaNodeJs, FaHtml5 } from 'react-icons/fa'
-import { SiExpress, SiFlutter, SiCss3, SiStyledcomponents } from 'react-icons/si'
-import { GrDocumentPdf } from 'react-icons/gr'
+// import { FaReact, FaNodeJs, FaHtml5 } from 'react-icons/fa'
+import {  SiNestjs, SiGraphql, SiMercadopago, SiTypescript } from 'react-icons/si'
+// import { GrDocumentPdf } from 'react-icons/gr'
+
 
 import { ContainerSection, LinkContainer } from '../../golbal-styles'
 import { Article, Content, List, ListItem } from './About.elements'
 import { SkillCard } from '../Skill'
+import { FaJava, FaReact } from 'react-icons/fa'
 
 export const About = () => {
 
@@ -15,21 +17,52 @@ export const About = () => {
   return (
     <ContainerSection scroll>
       <Content>
-        <Article bgColor='rgba(255,255,255,.05)' bgImg='./assets/jpg/grey.jpg'>
+        <Article bgColor='#9090904F'>
           <h2>
             <MdBuild />
-            Skills
+            Habilidades
           </h2>
           <hr />
           <p>
-            Here I show you the technologies and tools with which I usually work. Of course, I always keep abreast of the latest technologies.
+            Estas son algunas de las tecnologías con las que trabajo y trabajé en algun momento.
           </p>
           <List>
+
             <ListItem>
-              <SkillCard name='React'>
-                <FaReact />
+              <SkillCard name='NestJs'>
+                <SiNestjs color='#EA2858'/>
               </SkillCard>
             </ListItem>
+
+            <ListItem>
+              <SkillCard name='GraphQL'>
+                <SiGraphql  color='#F6009C'/>
+              </SkillCard>
+            </ListItem>
+
+            <ListItem>
+              <SkillCard name='Mercadopago'>
+                <SiMercadopago color='#00BCFF'/>
+              </SkillCard>
+            </ListItem>
+
+            <ListItem>
+              <SkillCard name='Typescrypt'>
+                <SiTypescript color='#3178C6'/>
+              </SkillCard>
+            </ListItem>
+
+            <ListItem>
+              <SkillCard name='ReactJs'>
+                <FaReact color='#58C4DC'/>
+              </SkillCard>
+            </ListItem>
+            <ListItem>
+              <SkillCard name='Java'>
+                <FaJava color='#7ABAFAD7'/>
+              </SkillCard>
+            </ListItem>
+            {/* 
 
             <ListItem>
               <SkillCard name='Styled components'>
@@ -66,20 +99,18 @@ export const About = () => {
                 <SiFlutter />
               </SkillCard>
             </ListItem>
+            */}
           </List>
         </Article>
 
-        <Article bgColor='rgba(255,255,255,.05)' bgImg='./assets/jpg/grey.jpg'>
+        <Article bgColor='#9090904F'>
           <h2>
             <MdAccountCircle />
-            About me
+            Acerca de mi
           </h2>
           <hr />
           <p>
-            I am a junior developer living in Argentina. I have loved technology since I was a child, I was always curious to know how computers work.
-          </p>
-          <p>
-            I consider myself an organized person who likes to solve problems and pays great attention to details.
+            Soy un desarrollador apasionado que busca superarse día a día. Me dedico a crear productos cada vez mejores para que los usuarios se sientan más cómodos y disfruten de una experiencia excepcional. Mi objetivo es entender y satisfacer las necesidades de los usuarios, ofreciendo soluciones innovadoras y eficientes.
           </p>
           {/* <LinkContainer style={{display:'none'}}>
             <Link to='/resume' cg='2rem'>
