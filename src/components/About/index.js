@@ -47,7 +47,7 @@ export const About = () => {
             </ListItem>
 
             <ListItem>
-              <SkillCard name='Typescrypt'>
+              <SkillCard name='Typescript'>
                 <SiTypescript color='#3178C6'/>
               </SkillCard>
             </ListItem>
@@ -62,44 +62,7 @@ export const About = () => {
                 <FaJava color='#7ABAFAD7'/>
               </SkillCard>
             </ListItem>
-            {/* 
-
-            <ListItem>
-              <SkillCard name='Styled components'>
-                <SiStyledcomponents />
-              </SkillCard>
-            </ListItem>
-
-            <ListItem>
-              <SkillCard name='HTML'>
-                <FaHtml5 />
-              </SkillCard>
-            </ListItem>
-
-            <ListItem>
-              <SkillCard name='CSS'>
-                <SiCss3 />
-              </SkillCard>
-            </ListItem>
-
-            <ListItem>
-              <SkillCard name='NodeJs'>
-                <FaNodeJs />
-              </SkillCard>
-            </ListItem>
-
-            <ListItem>
-              <SkillCard name='Express'>
-                <SiExpress />
-              </SkillCard>
-            </ListItem>
-
-            <ListItem>
-              <SkillCard name='Flutter'>
-                <SiFlutter />
-              </SkillCard>
-            </ListItem>
-            */}
+            
           </List>
         </Article>
 
