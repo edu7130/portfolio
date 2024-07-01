@@ -12,9 +12,9 @@ export const getProjects = async () => {
         {
             id: "32445e5b-2174-46f2-9d47-9f66e12d22dd",
             name: "Aplicación de tickets",
-            description: "Aplicacion de tickets para turnos. Hecho con NodeJs, Express, Socket.io",
+            description: "Aplicacion de tickets para turnos y atencion al publico. Hecho con NodeJs, Express, Socket.io",
             urlRepo: "https://github.com/edu7130/ticket-socket.git",
-            // url: "https://ticket.edudev.ar",
+            url: "https://ticket-socket.onrender.com",
             platform: "WEB",
             img: "https://res.cloudinary.com/dpgbofmgc/image/upload/v1649378751/wgccaktxxqmlg28862na.png",
         },

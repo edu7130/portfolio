@@ -11,7 +11,7 @@ export const Home = () => {
             Eduardo Weidenbacher
           </h1>
           <h3>Desarrollador</h3>
-          <h4>Soy un desarrollador apasionado que busca superarse día a día. Me dedico a crear productos cada vez mejores para que los usuarios se sientan más cómodos y disfruten de una experiencia excepcional. Mi objetivo es entender y satisfacer las necesidades de los usuarios, ofreciendo soluciones innovadoras y eficientes.</h4>
+          <h4>Soy un desarrollador backend apasionado con experiencia en múltiples tecnologías y siempre en busca de aprender más.</h4>
         </MeDescription>
         <img src="./assets/svg/web-developer.svg" alt='Programmer'/>
       </HomeContent>
